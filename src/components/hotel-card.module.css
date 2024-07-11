@@ -1,0 +1,149 @@
+.unsplashtsn8bpopveoIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 7.48px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.discoveryShores,
+.night,
+.storyBeachfrontSuite {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.storyBeachfrontSuite {
+  height: 14px;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+}
+.discoveryShores,
+.night {
+  letter-spacing: 0.04em;
+}
+.discoveryShores {
+  height: 19px;
+  font-size: var(--font-size-base-4);
+  text-transform: capitalize;
+}
+.night {
+  height: 16px;
+  font-size: var(--font-size-sm-5);
+}
+.stayDetails,
+.storyBeachfrontSuiteParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.storyBeachfrontSuiteParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs-5);
+}
+.stayDetails {
+  align-self: stretch;
+  flex-direction: row;
+  color: var(--color-darkslategray-200);
+}
+.div,
+.reviews {
+  position: absolute;
+  top: 0;
+  left: 40.1px;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 161.7px;
+  height: 14.2px;
+}
+.div {
+  left: 15.2px;
+  font-weight: 500;
+  width: 19px;
+  height: 14px;
+}
+.parent,
+.starIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.starIcons {
+  height: 90.14%;
+  width: 37.46%;
+  right: 62.54%;
+  bottom: 9.86%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent {
+  width: 33.1px;
+  height: 14.2px;
+  color: var(--color-darkslategray-200);
+}
+.button,
+.rating {
+  position: relative;
+}
+.rating {
+  align-self: stretch;
+  height: 14.2px;
+}
+.button {
+  width: 82px;
+  height: 19.4px;
+  letter-spacing: 0.34px;
+  line-height: 19.44px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.moreDetailsButton {
+  align-self: stretch;
+  height: 34.4px;
+  border-radius: 2.99px;
+  border: 0.7px solid var(--color-lavender-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xs-2);
+}
+.hotelCard,
+.hotelCard2 {
+  display: flex;
+  align-items: flex-start;
+}
+.hotelCard {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 7.48px;
+  background-color: var(--primary-contrast);
+  border: 0.7px solid var(--color-whitesmoke-200);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs-2) var(--padding-4xs);
+  gap: var(--gap-mid-2);
+}
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-300);
+}
+.hotelCard2 {
+  height: 330px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--font-roboto);
+}

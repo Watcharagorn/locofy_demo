@@ -1,0 +1,122 @@
+.mostPopularDestinations,
+.planYourNext {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.mostPopularDestinations {
+  font-size: var(--font-size-3xl-4);
+  text-transform: capitalize;
+  color: var(--color-darkslategray-200);
+}
+.titleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-5);
+  min-width: 510px;
+  max-width: 100%;
+}
+.viewAllDestinations {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: inherit;
+}
+.arrowRightIcon {
+  height: 17.9px;
+  width: 17.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 18px;
+}
+.cardsContainer,
+.destinationsTitles,
+.viewAllTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.viewAllTop {
+  width: 173px;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  align-items: flex-start;
+  gap: var(--gap-5xs-5);
+  white-space: nowrap;
+  text-align: right;
+}
+.cardsContainer,
+.destinationsTitles {
+  align-self: stretch;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.destinationsTitles {
+  align-items: center;
+  max-width: 100%;
+}
+.cardsContainer {
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--primary-contrast);
+  font-family: var(--font-roboto);
+}
+.viewAllDestinations1 {
+  height: 16px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+}
+.arrowRightIcon1 {
+  height: 17.9px;
+  width: 17.9px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.popDestinationsMain,
+.viewAllBottom {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewAllBottom {
+  width: 173px;
+  border-radius: 23.17px;
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-5xs-5);
+  white-space: nowrap;
+  text-align: right;
+}
+.popDestinationsMain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-mid-9);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm-5);
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 675px) {
+  .titleContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mostPopularDestinations {
+    font-size: var(--font-size-lg);
+  }
+}

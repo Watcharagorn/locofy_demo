@@ -1,0 +1,466 @@
+.skipToMain {
+  text-decoration: none;
+  position: absolute;
+  top: 20px;
+  left: 202.3px;
+  line-height: 24px;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 158px;
+  height: 24px;
+  white-space: nowrap;
+}
+.navLink,
+.navLink1 {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.navLink {
+  padding: 0;
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: 175.5px;
+  width: 142px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  align-self: stretch;
+  height: 65px;
+  position: sticky;
+  background-color: var(--primary-contrast);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: transparent;
+  font-family: var(--font-inter);
+}
+.imageIcon {
+  width: 2900px;
+  height: 2000px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -742.5px;
+  left: -498.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.nordvpnDeal {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.44px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.dealName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs-5);
+}
+.aSailyEsim,
+.get72Off {
+  margin: 0;
+}
+.get72OffContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.8px;
+  line-height: 52px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.dealDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-2);
+  box-sizing: border-box;
+  min-width: 434.8px;
+  max-width: 100%;
+}
+.pictureNordsvg {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 50px;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.44px;
+  line-height: 44px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 88.4px;
+}
+.backgroundshadow,
+.dealOffer,
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.backgroundshadow,
+.dealOffer {
+  flex-direction: row;
+}
+.backgroundshadow {
+  width: 197px;
+  box-shadow: 0 3px 8.12px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-lg);
+  background-color: var(--primary-contrast);
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray-200);
+}
+.dealOffer {
+  align-items: flex-end;
+  gap: var(--gap-54xl-2);
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.getTheDeal {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--primary-contrast);
+  text-align: center;
+  display: inline-block;
+  min-width: 96px;
+}
+.buttonGetTheDeal {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-8xl) var(--padding-xs)
+    var(--padding-9xl);
+  background-color: var(--color-tomato-200);
+  border-radius: var(--br-9980xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonGetTheDeal:hover {
+  background-color: var(--color-tomato-100);
+}
+.becomeEivorA,
+.div1 {
+  position: relative;
+  line-height: 22.9px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 21px;
+}
+.div1 {
+  line-height: 18px;
+  min-width: 4px;
+}
+.becomeEivorAVikingRaiderRParent,
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: column;
+  padding: var(--padding-10xs-3) 0 0;
+  font-size: var(--font-size-xs);
+}
+.becomeEivorAVikingRaiderRParent {
+  flex-direction: row;
+  gap: var(--gap-9xs-7);
+}
+.div2,
+.div3 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 21px;
+}
+.div3 {
+  line-height: 18px;
+  min-width: 4px;
+}
+.frame,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  flex-direction: column;
+  padding: var(--padding-10xs-3) 0 0;
+  font-size: var(--font-size-xs);
+}
+.parent {
+  flex-direction: row;
+  gap: var(--gap-9xs-5);
+}
+.div4,
+.div5 {
+  position: relative;
+  line-height: 23px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 21px;
+}
+.div5 {
+  line-height: 18px;
+  min-width: 4px;
+}
+.frameDiv,
+.group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: var(--padding-10xs-3) 0 0;
+  font-size: var(--font-size-xs);
+}
+.group {
+  flex-direction: row;
+  gap: var(--gap-9xs-5);
+}
+.div6 {
+  position: relative;
+  line-height: 22.9px;
+  font-weight: 500;
+  text-align: left;
+  display: inline-block;
+  min-width: 21px;
+}
+.buttonContainer,
+.paragraphbackground {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.paragraphbackground {
+  border-radius: var(--br-9980xl);
+  background-color: var(--color-whitesmoke-100);
+  overflow-x: auto;
+  padding: var(--padding-xs-6) var(--padding-4xl) var(--padding-sm-4)
+    var(--padding-5xl);
+  gap: var(--gap-9xs-4);
+  z-index: 1;
+}
+.buttonContainer {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.svgIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.dayMoneyBackGuarantee {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  z-index: 1;
+}
+.dealButtonContainer,
+.dealButtonWrapper,
+.svgParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.svgParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--primary-contrast);
+}
+.dealButtonContainer,
+.dealButtonWrapper {
+  flex-direction: column;
+}
+.dealButtonContainer {
+  align-self: stretch;
+  gap: var(--gap-base-2);
+  flex-shrink: 0;
+}
+.dealButtonWrapper {
+  width: 328.2px;
+  padding: var(--padding-5xs-3) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pictureSailyGift1svg,
+.pictureSailyLogosvg {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pictureSailyGift1svg {
+  height: 50px;
+  width: 50px;
+}
+.pictureSailyLogosvg {
+  align-self: stretch;
+  height: 38px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.sailyLogoContainer {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.backgroundshadow1,
+.dealButtonWrapperParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.backgroundshadow1 {
+  width: 197px;
+  box-shadow: 0 3px 8.12px rgba(0, 0, 0, 0.15);
+  border-radius: var(--br-lg);
+  background-color: var(--primary-contrast);
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.dealButtonWrapperParent {
+  width: 705px;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.background,
+.headerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.background {
+  background-color: var(--color-darkslateblue);
+  padding: var(--padding-225xl-1) var(--padding-362xl) var(--padding-225xl-7);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-base);
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -1px;
+}
+.headerParent {
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--primary-contrast);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .dealDescription {
+    flex: 1;
+    min-width: 100%;
+  }
+  .dealOffer {
+    flex-wrap: wrap;
+  }
+  .background {
+    padding-left: var(--padding-171xl);
+    padding-right: var(--padding-171xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .get72OffContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 42px;
+  }
+  .div {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .dealOffer {
+    gap: var(--gap-18xl);
+  }
+  .buttonContainer,
+  .dealButtonWrapperParent {
+    flex-wrap: wrap;
+  }
+  .background {
+    padding-left: var(--padding-76xl);
+    padding-right: var(--padding-76xl);
+    padding-bottom: var(--padding-140xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nordvpnDeal {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .get72OffContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 31px;
+  }
+  .div {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .dealOffer {
+    gap: var(--gap-lg);
+  }
+  .background {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

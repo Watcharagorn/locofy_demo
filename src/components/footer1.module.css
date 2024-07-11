@@ -1,0 +1,221 @@
+.logoIcon {
+  width: 130.1px;
+  height: 24.7px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fickleFlightIs {
+  align-self: stretch;
+  height: 41px;
+  position: relative;
+  line-height: 20.18px;
+  display: inline-block;
+}
+.entypoSocialfacebookWithCiIcon,
+.entypoSocialinstagramWithCIcon,
+.entypoSocialtwitterWithCirIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22.4px;
+  height: 22.4px;
+  overflow: hidden;
+}
+.entypoSocialinstagramWithCIcon,
+.entypoSocialtwitterWithCirIcon {
+  left: 74.8px;
+}
+.entypoSocialinstagramWithCIcon {
+  left: 37.4px;
+}
+.socialIcons {
+  width: 97.2px;
+  height: 22.4px;
+  position: relative;
+}
+.fickleflightBio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-5);
+  min-width: 287px;
+  max-width: 100%;
+}
+.footerSeparator {
+  height: 118px;
+  width: 0.7px;
+  position: relative;
+  border-right: 0.7px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.aboutUs {
+  top: 35.7px;
+  width: 101.4px;
+  height: 14.2px;
+}
+.aboutUs,
+.careers,
+.company1,
+.howWeWork,
+.news {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.company1 {
+  top: 0;
+  font-size: var(--font-size-mini);
+  line-height: 20.18px;
+  font-weight: 500;
+  width: 130.6px;
+  height: 20.2px;
+}
+.careers,
+.howWeWork,
+.news {
+  top: 58.9px;
+  width: 63px;
+  height: 14.2px;
+}
+.careers,
+.howWeWork {
+  top: 82px;
+  width: 86.1px;
+}
+.howWeWork {
+  top: 105.2px;
+  width: 147.5px;
+}
+.company {
+  height: 119.4px;
+  width: 147.5px;
+  position: relative;
+}
+.account,
+.support1 {
+  position: absolute;
+  top: 35.7px;
+  left: 0;
+  display: inline-block;
+  width: 82px;
+  height: 14.2px;
+}
+.support1 {
+  top: 0;
+  font-size: var(--font-size-mini);
+  line-height: 20.18px;
+  font-weight: 500;
+  width: 98.3px;
+  height: 20.2px;
+}
+.accessibility,
+.faq,
+.supportCenter {
+  position: absolute;
+  top: 58.9px;
+  left: 0;
+  display: inline-block;
+  width: 147.5px;
+  height: 14.2px;
+}
+.accessibility,
+.faq {
+  top: 82px;
+  width: 39.6px;
+}
+.accessibility {
+  top: 105.2px;
+  width: 122.9px;
+}
+.support {
+  height: 119.4px;
+  width: 147.5px;
+  position: relative;
+}
+.covidAdvisory {
+  top: 35.7px;
+  width: 129.2px;
+  height: 14.2px;
+}
+.airlineFees,
+.covidAdvisory,
+.more1,
+.quarantineRules,
+.tips {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.more1 {
+  top: 0;
+  font-size: var(--font-size-mini);
+  line-height: 20.18px;
+  font-weight: 500;
+  width: 57.3px;
+  height: 20.2px;
+}
+.airlineFees,
+.quarantineRules,
+.tips {
+  top: 58.9px;
+  width: 101.2px;
+  height: 14.2px;
+}
+.quarantineRules,
+.tips {
+  top: 82px;
+  width: 37.8px;
+}
+.quarantineRules {
+  top: 105.2px;
+  width: 147.5px;
+}
+.more {
+  height: 119.4px;
+  width: 147.5px;
+  position: relative;
+}
+.footer,
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerLinks {
+  flex: 1;
+  justify-content: space-between;
+  min-width: 287px;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  font-size: var(--font-size-xs);
+}
+.footer {
+  align-self: stretch;
+  background: linear-gradient(91.74deg, #0b5ba8 25.38%, #299bd8);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: var(--padding-5xl-7) var(--padding-43xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl-9);
+  text-align: left;
+  font-size: var(--font-size-sm-5);
+  color: var(--primary-contrast);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 825px) {
+  .footerSeparator {
+    width: 100px;
+    height: 0.7px;
+    border-top: 0.7px solid var(--color-gray-400);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+}

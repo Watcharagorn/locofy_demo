@@ -1,0 +1,126 @@
+.nordSecurityAll,
+.supportnordvpncom {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.supportnordvpncom {
+  white-space: nowrap;
+}
+.cookiePreferences,
+.termsOfService {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 97.1px;
+}
+.cookiePreferences {
+  min-width: 113px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-5);
+  max-width: 100%;
+}
+.creditCardssvgIcon,
+.svgIcon {
+  position: relative;
+  min-height: 24px;
+}
+.creditCardssvgIcon {
+  align-self: stretch;
+  width: 213px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.svgIcon {
+  height: 24px;
+  width: 24px;
+}
+.english {
+  text-decoration: none;
+  position: relative;
+  line-height: 21px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+}
+.border {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border: 4px solid var(--primary-contrast);
+  box-sizing: border-box;
+}
+.languageDropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-8) 0 0;
+}
+.footer,
+.languageContainer,
+.paymentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-5);
+}
+.footer,
+.paymentContainer {
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--primary-contrast);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  justify-content: space-between;
+  padding: var(--padding-4xl-5) var(--padding-177xl) var(--padding-4xl)
+    var(--padding-144xl);
+  box-sizing: border-box;
+  min-height: 146px;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1800px) {
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .footer {
+    padding-left: var(--padding-62xl);
+    padding-right: var(--padding-79xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .footerLinks {
+    flex-wrap: wrap;
+  }
+  .footer {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paymentContainer {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+}

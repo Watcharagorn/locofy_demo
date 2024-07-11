@@ -1,0 +1,58 @@
+.pictureThreatProtectionPr {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.heading3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.44px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.avoidMaliciousWebsites,
+.yourDevicesFrom {
+  margin: 0;
+}
+.avoidMaliciousWebsitesContainer {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+.backgroundborder {
+  height: 480px;
+  border-radius: var(--br-xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-5xl) var(--padding-lgi);
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 925px) {
+  .backgroundborder {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,189 @@
+.bannerBackground,
+.bannerGradient {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 100%;
+}
+.bannerGradient {
+  top: 0;
+  background: linear-gradient(78.78deg, #114f8b 5.2%, #2a9ad7);
+}
+.bannerBackground {
+  top: 0.3px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.findTheBest,
+.letsExplore {
+  align-self: stretch;
+  position: relative;
+  line-height: 51px;
+}
+.findTheBest {
+  font-size: var(--font-size-mid-9);
+  line-height: 24px;
+  font-family: var(--font-roboto);
+}
+.title {
+  width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs-7);
+  max-width: 100%;
+}
+.departureField {
+  align-self: stretch;
+}
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs-7) var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 177px;
+}
+.arrivalField {
+  align-self: stretch;
+}
+.inputGroup1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs-7) var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 177px;
+}
+.dateField {
+  align-self: stretch;
+}
+.inputGroup2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs-7) var(--padding-10xs);
+  box-sizing: border-box;
+  min-width: 177px;
+}
+.inputsRow {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 460px;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.button {
+  text-decoration: none;
+  width: 109.9px;
+  position: relative;
+  font-size: var(--font-size-xs-2);
+  letter-spacing: 0.34px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--primary-contrast);
+  text-align: center;
+  display: inline-block;
+}
+.buttonGroup,
+.searchFlightsButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-orange);
+  width: 122.6px;
+  height: 41.9px;
+  border-radius: 2.99px;
+  overflow: hidden;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-chocolate);
+}
+.buttonGroup {
+  padding: var(--padding-9xs-7) var(--padding-10xs);
+}
+.searchContainer,
+.searchForm {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchForm {
+  margin: 0;
+  width: 867px;
+  border-radius: 7.48px;
+  background-color: var(--primary-contrast);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-sm);
+  row-gap: 20px;
+}
+.searchContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-13xl-1);
+  min-height: 478px;
+  height: 100%;
+}
+.searchSection {
+  align-self: stretch;
+  height: 478.4px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-26xl-6);
+  color: var(--primary-contrast);
+  font-family: var(--font-baloo-bhai);
+}
+@media screen and (max-width: 825px) {
+  .letsExplore {
+    font-size: var(--font-size-17xl);
+    line-height: 40px;
+  }
+  .searchSection {
+    height: auto;
+    min-height: 478.4;
+  }
+}
+@media screen and (max-width: 675px) {
+  .inputsRow {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsExplore {
+    font-size: var(--font-size-8xl);
+    line-height: 30px;
+  }
+}

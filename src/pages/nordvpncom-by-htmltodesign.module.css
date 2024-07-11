@@ -1,0 +1,59 @@
+.yourIp10428214144 {
+  margin-right: -0.3px;
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.ipStatus {
+  width: 343.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.unprotected {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--color-tomato-200);
+  display: inline-block;
+  min-width: 73px;
+}
+.background {
+  align-self: stretch;
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-5xs-5) var(--padding-xl) 5.3px var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.nordvpncomByHtmltodesign {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--primary-contrast);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .background {
+    flex-wrap: wrap;
+  }
+}
